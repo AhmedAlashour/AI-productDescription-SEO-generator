@@ -5,6 +5,7 @@ import re
 
 # OpenAI Setup
 # Make sure to replace with your actual API key or load from env/config
+openai.api_key = os.environ.get("OPENAI_API_KEY")
 
 # Load the Excel sheet
 df = pd.read_excel(".xlsx")
